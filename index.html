@@ -22,6 +22,151 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
+    <!-- Header section start -->
+    <header class="container">
+      <!-- Nav bar section start -->
+      <nav class="navbar navbar-expand-lg pt-lg-4">
+        <div class="container-fluid justify-content-between">
+          <a class="navbar-brand" href="#"
+            ><img src="images/logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 para-color para-font">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item d-flex align-items-center">
+                <a class="nav-link" href="#"> Services </a>
+                <span class="material-symbols-outlined"> chevron_right </span>
+              </li>
+              <li class="nav-item d-flex align-items-center">
+                <a class="nav-link" href="#">Services </a>
+                <span class="material-symbols-outlined"> chevron_right </span>
+              </li>
+              <li class="nav-item d-flex align-items-center">
+                <a class="nav-link" href="#">Blog </a>
+                <span class="material-symbols-outlined"> chevron_right </span>
+              </li>
+              <li class="nav-item d-flex align-items-center">
+                <a class="nav-link" href="#">Contact Us </a>
+                <span class="material-symbols-outlined"> chevron_right </span>
+              </li>
+            </ul>
+          </div>
+          <button
+            class="btn bg-color border-0 text-white btn-my py-3 px-4 para-font fw-semibold"
+            type="submit"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+          >
+            Free Consultation
+          </button>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="staticBackdrop"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                    Wait for advice?
+                  </h1>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <!-- modal body  -->
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label"
+                        >Email address</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"
+                      />
+                      <div id="emailHelp" class="form-text">
+                        We'll never share your email with anyone else.
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                      Submit
+                    </button>
+                  </form>
+                </div>
+                <!-- modal body   -->
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Nav bar section end -->
+      <section class="hero mt-5">
+        <div
+          class="hero-section text-center d-flex align-items-center justify-content-center"
+        >
+          <div>
+            <h2 class="fs-1 fw-bold text-white title-font mb-4">
+              We Provide Effective <br />
+              Legal Solutions
+            </h2>
+            <p class="text-white para-font fs-6 mb-4">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority <br />
+              have suffered alteration in some form, by injected humour.
+            </p>
+            <div class="btn-input d-flex">
+              <input
+                type="text"
+                id="inputPassword5"
+                class="form-control para-font fs-6 para-color me-lg-4 me-2 py-3"
+                aria-describedby="passwordHelpBlock"
+                placeholder="Search your services"
+              />
+              <button
+                class="btn bg-color border-0 text-white btn-my py-2 px-4 para-font fw-semibold py-3"
+                type="submit"
+              >
+                Search
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <!-- Header section end -->
     <!-- Bootstrap JS file -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"

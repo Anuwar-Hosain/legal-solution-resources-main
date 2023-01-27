@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap");
+
+.title-font {
+  font-family: "EB Garamond", serif;
+}
+.para-font {
+  font-family: "Poppins", sans-serif;
+}
+.para-color {
+  color: #707070;
+}
+.cerosel-color {
+  color: #f3f3f3;
+}
+.title-color {
+  color: #414040;
+}
+.text-center {
+  text-align: center;
+}
+.bg-color {
+  background: #b68c5a;
+}
+.btn-my:hover {
+  background: #b68c5a;
+}
+.contant-spaleing {
+  margin-top: 120px;
+}
+.curser {
+  cursor: pointer;
+}
+.li {
+  list-style: none;
+}
+.footer-p {
+  padding: 100px 0;
+}
+/* hero section */
+.hero-section {
+  background: linear-gradient(0deg, #111111 0%, rgba(17, 17, 17, 0) 100%),
+    url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  width: 100%;
+}
+/* legal section */
+.cards-img {
+  width: 72px;
+}
+.cadrs-img-2 {
+  width: 40px;
+}
+.cards-2 {
+  background: linear-gradient(180deg, #f3f3f3 0%, rgba(243, 243, 243, 0) 100%);
+}
+/* footer  */
+.footer {
+  background: #111111;
+}
